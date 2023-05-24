@@ -116,12 +116,13 @@ footer{
     font-family: 'Indie Flower', cursive;
 }
 
-@media (max-width:480px){
+@media (max-width:768px){
 
     .blocks{
         justify-content: space-around;
         gap: 0;
     }
+    
     .buttons{
         justify-content: space-around;
         gap: 0;
@@ -136,13 +137,14 @@ footer{
         width: 60%;
         margin-left: 20%;
     }
+    
     .score >div{
         font-size: 1.4rem;
     }
     
     img{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 }
 
