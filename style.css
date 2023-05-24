@@ -37,7 +37,8 @@ h2{
 
 .blocks{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 500px;
 }
 
 img{
@@ -49,7 +50,8 @@ img{
     margin-top: 50px;
     display: flex;  
     height: 100px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
 }
 
 .buttons > button{
@@ -116,6 +118,15 @@ footer{
 
 @media (max-width:480px){
 
+    .blocks{
+        justify-content: space-around;
+        gap: 0;
+    }
+    .buttons{
+        justify-content: space-around;
+        gap: 0;
+    }
+
     .buttons > button{
         width: 100px;
         font-size: 1.4rem;
@@ -130,3 +141,5 @@ footer{
     }
     
 }
+
+    
