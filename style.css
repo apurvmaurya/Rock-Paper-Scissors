@@ -27,6 +27,7 @@ h2{
     border: 1px solid black;
     text-overflow: ellipsis;
     text-align: center;
+    background-color: antiquewhite;
 }
 
 .result{
@@ -116,13 +117,12 @@ footer{
     font-family: 'Indie Flower', cursive;
 }
 
-@media (max-width:768px){
+@media (max-width:480px){
 
     .blocks{
         justify-content: space-around;
         gap: 0;
     }
-    
     .buttons{
         justify-content: space-around;
         gap: 0;
@@ -137,7 +137,6 @@ footer{
         width: 60%;
         margin-left: 20%;
     }
-    
     .score >div{
         font-size: 1.4rem;
     }
@@ -147,5 +146,3 @@ footer{
         height: 150px;
     }
 }
-
-    
