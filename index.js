@@ -15,6 +15,12 @@ document.querySelector("input").addEventListener("keypress" , (event) => {
     }
 });
 
+document.querySelector("input").addEventListener("keypress" , (event) => {
+    if(event.key===".")
+    {
+        setName();
+    }
+});
 function setName(){
 
     var name = document.querySelector("input").value ;
